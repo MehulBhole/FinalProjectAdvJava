@@ -1,0 +1,103 @@
+.loginbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BG5.svg);
+    height: 800px;
+}
+
+.login-container {
+    max-width: 25rem;
+    margin: 50px auto 0px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+	width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+	transition: background-color 0.3s ease;
+	outline: none;
+	border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.nxtbtn{
+    margin-top: 20px;
+	border-radius: 3px;
+	background-color: #D8232A;
+	width: 15rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+	
+}
+
+.or-separator {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.or-separator span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.login-options {
+	height: 2rem;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+	text-align: center;
+
+  
+}
+
+a {
+    color: #D8232A;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.Foot{
+	max-width: 25rem;
+    padding: 30px;
+    margin: 0px auto;
+    background-color: #ebebeb;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.3);
+}
+.txt{
+	color: black;
+	
+}

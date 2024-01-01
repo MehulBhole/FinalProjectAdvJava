@@ -1,0 +1,31 @@
+
+.sidebar-card {
+    border: none;
+    border-radius: 0;
+  }
+  
+
+  .card {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .toggle-btn {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .col-md-3.open {
+      width: 0;
+      overflow: hidden;
+    }
+  
+    .col-md-3.open .toggle-btn {
+      margin-left: -15px;
+    }
+  
+    .col-md-3.open .card {
+      display: none;
+    }
+  }
+  

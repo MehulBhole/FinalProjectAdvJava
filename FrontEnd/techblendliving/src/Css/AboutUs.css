@@ -1,0 +1,95 @@
+.AboutUsbody {
+  font-family: Arial, sans-serif;
+  
+  background-image: url(BG5.svg);
+}
+.team-img {
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid #D8232A;
+  margin-top: 10px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.container_text-center{
+  background-color: #fff;
+ 
+  text-align: center;
+}
+
+.team-member-name:hover {
+  color: #D8232A;
+}
+ /*  .team-item:hover{
+  transform: scale(1.1);
+  filter: grayscale(10%);
+  box-shadow: 0 0 10px rgba(30, 132, 222, 0.931); 
+}  */
+.social-icons {
+  /* text-align: center; */
+  margin-top: 200px;
+}
+
+.linkedin-icon,
+.twitter-icon {
+  font-size: 24px;
+  color: #0077b5; /* LinkedIn color */
+}
+
+.twitter-icon {
+  color: #1da1f2; /* Twitter color */
+}
+
+/* Add margin to the right of the LinkedIn icon */
+.linkedin-icon {
+  margin-right: 10px;
+}
+
+/* Add space between text and icons */
+.icon-space {
+  /* display: inline-block; */
+  width: 10px; /* Adjust the width as needed */
+}
+
+
+.team-img:hover {
+  transform: scale(1.1);
+  filter: grayscale(10%);
+  box-shadow: 0 0 10px #D8232A;
+}
+
+.item-social a {
+  color: white;
+  font-size: 18px;
+  background-color: #8b8686;
+  border-radius: 13px;
+  padding: 2px 6px;
+
+  margin: 0px 2px;
+}
+/* .item.social>a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+} */
+
+/* .item.social>a:hover {
+  opacity: 0.9;
+}
+
+.item-social a:hover {
+  cursor: pointer;
+  color: #454545;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 13px;
+  padding: 1px 7px;
+} */

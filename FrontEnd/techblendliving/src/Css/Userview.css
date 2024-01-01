@@ -1,0 +1,144 @@
+.userview{
+    display: flex;
+    background-image: url(./BG5.svg);
+    height: 1000px;
+}
+.leftuser{
+    
+    margin: 3%;
+    width: 20%;
+    border: 2px #e8e8e8 solid; 
+     border-radius: 15px;
+     background-color: white;
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3); 
+}
+.rightuser{
+    padding: 5%;
+    margin: 3%;
+    width: 20%;
+    border: 2px #e8e8e8 solid;
+    border-radius: 15px;
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+}
+.middleuser{
+    width: 60%;
+    height: auto;
+    margin-top: 15px;
+    
+}
+.corouselparent{
+   
+    padding: 2%;
+   
+    max-width: 800px; /* Adjust the maximum width as needed */
+   /* Center the carousel */
+}
+.parentRow{
+  justify-content:space-around;
+  display: flex;
+
+}
+ .one,.two{
+    margin-left: 20%;
+  
+ }
+.heading{
+
+   margin:3%;
+   margin-top: 8%;
+   height: 100px;
+   text-align: center;
+  
+    
+   
+}
+.usericon{
+    text-align: center;
+}
+.userdiv{
+    margin-top: 10%;
+    margin-left: 3%;
+}
+/*
+.userData{
+    height: 500px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #e8e8e8;
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+} */
+.searchPanel { 
+    display: flex;
+        justify-content: center;
+        align-items: center ;
+        width: 100%;
+    margin: 3%; height: 150px; 
+    border: 2px #e8e8e8 solid; border-radius: 10px;
+     box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3); 
+    }
+    .searchbox{
+        /* display: flex;
+        justify-content: center;
+        align-items: center ;
+        width: 100%; */
+    }
+.searchResult{
+    
+    border: 2px #e8e8e8 solid;
+    border-radius: 10px;
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+    height: 700px;
+    color:black;
+}
+.searchbtn{
+   
+	border-radius: 30px;
+	background-color: #D8232A;
+	width: 15rem;
+  
+    margin-right: 2%;
+}
+button {
+    width: 100%;
+  
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+  
+  .searchBox::placeholder {
+    color: #999;
+  }
+  
+  .searchbar-main {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border: solid 0.6px #dcdcdc;
+    height: 60px;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+  
+  }
+  
+  .searchbar-main:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  .searchBox1 {
+    padding: 10px;
+    font-size: 30px;
+    height: 55px;
+    border: none; /* Remove the border */
+    width: 80%; /* Increase the width */
+  }
